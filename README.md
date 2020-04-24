@@ -1,6 +1,5 @@
 # Heroku Todo List Application
 ## Link: https://kyle-todos-list.herokuapp.com/lists
-### Screenshots:
 <img src='https://github.com/kylemccurley/heroku-todo-list-app/blob/master/Todo.png'>
 <img src='https://github.com/kylemccurley/heroku-todo-list-app/blob/master/Todo2.png'>
 

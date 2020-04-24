@@ -1,5 +1,7 @@
 # Heroku Todo List Application
 ## Link: https://kyle-todos-list.herokuapp.com/lists
+### Screenshots:
+
 ### Summary of Concepts:
 <ul>
   <li>State is data that persists over time.</li>

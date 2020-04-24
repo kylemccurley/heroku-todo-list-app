@@ -7,6 +7,7 @@ require 'tilt/erubis'
 
 enable :sessions
 set :session_secret, 'secret'
+set :erb, :escape_html => true
 
 before do
   session[:lists] ||= []

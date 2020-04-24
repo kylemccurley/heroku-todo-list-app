@@ -1,8 +1,8 @@
 # Heroku-Based Todo List Application
 ## Link: https://kyle-todos-list.herokuapp.com/lists
-<img src='https://github.com/kylemccurley/heroku-todo-list-app/blob/master/Todo.png'>
+<img src='https://github.com/kylemccurley/heroku-todo-list-app/blob/master/Todo.png' style='background-color: black'>
 <hr>
-<img src='https://github.com/kylemccurley/heroku-todo-list-app/blob/master/Todo2.png'>
+<img src='https://github.com/kylemccurley/heroku-todo-list-app/blob/master/Todo2.png' style='background-color: black'>
 <hr>
 
 ### Summary of Concepts:

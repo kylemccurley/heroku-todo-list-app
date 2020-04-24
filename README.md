@@ -3,6 +3,7 @@
 <img src='https://github.com/kylemccurley/heroku-todo-list-app/blob/master/Todo.png'>
 <hr>
 <img src='https://github.com/kylemccurley/heroku-todo-list-app/blob/master/Todo2.png'>
+<hr>
 
 ### Summary of Concepts:
 <ul>

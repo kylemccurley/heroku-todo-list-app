@@ -58,6 +58,14 @@ helpers do
     incomplete_todos.each { |todo| yield todo, todos.index(todo) }
     complete_todos.each { |todo| yield todo, todos.index(todo) }
   end
+
+  def load_list(id)
+    lists = session[:lists]
+    return lists[id] if id < lists.size
+
+    session[:error] = "Sorry, the requested list does not exist."
+    redirect '/lists'
+  end
 end
 
 get '/' do
@@ -78,7 +86,8 @@ end
 # Get the page that displays the list
 get '/lists/:id' do
   @list_id = params[:id].to_i
-  @list = session[:lists][@list_id]
+  @list = load_list(@list_id)
+  redirect '/lists' if @list_id >= session[:lists].size
   erb :list, layout: :layout
 end
 

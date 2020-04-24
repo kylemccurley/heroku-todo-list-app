@@ -5,7 +5,7 @@
 <img src='https://github.com/kylemccurley/heroku-todo-list-app/blob/master/Todo2.png' style='background-color: black'>
 <hr>
 
-### Summary of Concepts:
+### Summary of Concepts Demonstrated in This Project:
 <ul>
   <li>State is data that persists over time.</li>
   <li> The session provides a way to store data that will persist between subsequent HTTP requests. This data is associated with a specific user by storing a cookie in their browser. In Sinatra, the session data itself is also stored in this cookie, but this is configurable and not always the case with other web frameworks.</li>

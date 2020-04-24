@@ -1,1 +1,1 @@
-# heroku-todo-list-app
+# Heroku Todo List Application
